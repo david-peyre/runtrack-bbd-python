@@ -58,9 +58,9 @@ class Employe:
 # Exemple d'utilisation
 with Employe() as employe_manager:
     employe_manager.read_employes()
-    #employe_manager.create_employe("Bill", "Burr", 3500, 3)
-    #employe_manager.read_employes()
-    #employe_manager.update_salaire(3, 4500)
-    #employe_manager.read_employes()
-    #employe_manager.delete_employe(1)
-    #employe_manager.read_employes()
+    employe_manager.create_employe("Bill", "Burr", 3500, 1)
+    employe_manager.read_employes()
+    employe_manager.update_salaire(3, 4500)
+    employe_manager.read_employes()
+    employe_manager.delete_employe(1)
+    employe_manager.read_employes()

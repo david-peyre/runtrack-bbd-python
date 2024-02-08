@@ -1,6 +1,1 @@
-from job07 import Employe
-
-employe = Employe
-employe.read_employes()
-
-
+DELETE FROM employe WHERE id = %s   
